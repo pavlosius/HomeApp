@@ -12,8 +12,14 @@ namespace HomeApp
             //MainPage = new MainPage();
             //MainPage = new LoadingPage();
             //MainPage = new LoginPage();
-            MainPage = new RoomsPage();
-        }
+            //MainPage = new RoomsPage();
+            MainPage = new DevicesPage();
+            //MainPage = new ClimatePage();
+            //MainPage = new AboutPage();
+            //MainPage = new GridPage();
+            //MainPage = new MergeGridPage();
+            //MainPage = new NewDevicePage();
+         }
 
         protected override void OnStart()
         {
