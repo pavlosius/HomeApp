@@ -3,6 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HomeApp.App">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="CornerRadius" Value="15" />
+                <Setter Property="Opacity" Value="0.8" />
+                <Style.Triggers>
+                    <Trigger Property="IsPressed" Value="True" TargetType="Button">
+                        <Setter Property="TextColor" Value="LightBlue" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

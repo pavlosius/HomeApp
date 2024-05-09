@@ -1,12 +1,17 @@
 ﻿using HomeApp.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using Xamarin.Forms.StyleSheets;
 using Xamarin.Forms.Xaml;
+using static Xamarin.Forms.Device;
 
 namespace HomeApp.Pages
 {
@@ -14,12 +19,12 @@ namespace HomeApp.Pages
     public partial class DevicesPage : ContentPage
     {
         public DevicesPage()
-        {
+        { 
             InitializeComponent();
             GetDevices();
         }
 
-        /// <summary>
+        /// <summary>Xamarin.Forms.Xaml.XamlParseException: 'Resource '/Static/DevicesPage.css' not found.'
         /// Метод для выгрузки устройств
         /// </summary>
         public void GetDevices()
