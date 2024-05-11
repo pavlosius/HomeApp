@@ -19,13 +19,14 @@ namespace HomeApp
             //MainPage = new AboutPage();
             //MainPage = new GridPage();
             //MainPage = new MergeGridPage();
-            MainPage = new NewDevicePage();
+            //MainPage = new NewDevicePage();
             //MainPage = new DeviceControlPage();
             //MainPage = new ProfilePage();
             //MainPage = new WebPage();
+            //MainPage = new BindingPage();
+            MainPage = new BindingModePage();
 
-
-
+            
         }
 
         protected override void OnStart()
