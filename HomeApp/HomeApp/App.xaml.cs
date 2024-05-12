@@ -24,9 +24,9 @@ namespace HomeApp
             //MainPage = new ProfilePage();
             //MainPage = new WebPage();
             //MainPage = new BindingPage();
-            MainPage = new BindingModePage();
+            //MainPage = new BindingModePage();
+            MainPage = new DeviceListPage();
 
-            
         }
 
         protected override void OnStart()
