@@ -25,8 +25,10 @@ namespace HomeApp
             //MainPage = new WebPage();
             //MainPage = new BindingPage();
             //MainPage = new BindingModePage();
-            MainPage = new DeviceListPage();
+            //MainPage = new DeviceListPage();
 
+            // Инициализация главного экрана и стека навигации
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()
